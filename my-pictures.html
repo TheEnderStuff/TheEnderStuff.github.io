@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
@@ -24,7 +23,6 @@
      <div class="container">
        <h1 class="display-4" style="color: #1aa3ff;">My Photography</h1>
        <p class="lead" style="color: white;">A Compilation of My Photographs</p>
-       <link rel="icon" href="favicon.ico" type="image/x-icon"/>
      </div>
    </div>
     
@@ -93,29 +91,26 @@ body {
 </div>
  
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; NavBar</span>
-
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
      
 </body>
   </div>
  
   <br/>
-
-   <div class="jumbotron">
     
      <h2 class="display-4">Inverness</h2>
     
-       <img src="DSC_0017.jpg" alt="First slide">
-      <img src="DSC_0136.jpg" alt="Second slide">
-      <img src="DSC_0145.jpg" alt="Third slide">
-     
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+             <img src="DSC_0017.jpg">
+    </div>
+    <div class="col-sm">
+            <img src="DSC_0136.jpg">
+    </div>
+    <div class="col-sm">
+      <img src="DSC_0145.jpg">
+    </div>
+  </div>
    <br/>
    <br/>
 
@@ -137,5 +132,14 @@ function closeNav() {
 
  </center>
  </body>
-
+ 
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+ 
 </html>
