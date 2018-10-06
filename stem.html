@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  
+
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
  </head>
@@ -19,16 +19,17 @@
 
    <center>
 
-   <div class="jumbotron jumbotron-fsluid" style="background-color: #343d46;" animated bouceInDown>
-     <div class="container">
-       <h1 class="display-4" style="color: #1aa3ff;">My STEM Fair Project</h1>
-       <p class="lead" style="color: white;">A Page About My STEM Fair Project</p>
-       <p class="lead" style="color: white;"><i class="fas fa-atom"></i>   <i class="fas fa-desktop">   </i><i class="fas fa-cogs">   </i><i class="fas fa-sort-numeric-down"></i></p>
-       <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+     <div id="myNav" class="overlay" align="left">
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <div class="overlay-content">
+         <a href="index.html">Home</a>
+         <a href="blog.html">My Blog</a>
+         <a href="stem.html">My Stem Fair Project</a>
+         <a href="pictures.html">My Photography</a>
+       </div>
      </div>
-   </div>
-    
-    <div class="jumbotron"> 
+
+    <div class="jumbotron">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
@@ -91,7 +92,7 @@ body {
     <a href="my-pictures.html">My Photography</a>
   </div>
 </div>
- 
+
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; NavBar</span>
 
 <script>
@@ -102,19 +103,19 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 </script>
- </div> 
- 
+ </div>
+
 <br/>
 
    <div class="jumbotron">
      <h2 class="display-4">About The Project</h2>
      <p class="lead">The S.T.E.M Part Of Our Website Is Mostly Engineering And Tech Because Of What We Are Doing Which Is Building A Robotic Arm Or Two. We Will Be Using Coding, Soldering And Circuit Building. By Using Potentiometers, Servo Motors, Bread Boards And The Arduino Uno We Will Create A Fully Fuctional Robotic Arm.</p>
    </div>
-	   
+
   <div class="jumbotron">
-    <img src="./pages/pictures/DocFile (1) - Copy.jpg" class="img-fluid" alt="Responsive image">
+    <img src="./images/stem1.jpg" class="img-fluid" alt="Responsive image">
 	   </div>
-     
+
      	<div class="container">
 	  <div id="logoCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators black">
@@ -122,21 +123,21 @@ function closeNav() {
 		  <li data-target="#logoCarousel" data-slide-to="1"></li>
 		</ol>
 		<div class="carousel-inner">
-			
+
 		  <div class="item active">
-			<img src="./pages/pictures/DocFile (1) - Copy.jpg" style="width:100%">
+			<img src="./images/stem2.jpg" style="width:100%">
 			<div class="carousel-caption">
 			  <h3>Soldering</h3>
 			</div>
 		  </div>
-	
+
 		  <div class="item">
-			<img src="./pages/pictures/DocFile (2) (1).jpg" style="width:100%">
+			<img src="./images/stem1.jpg" style="width:100%">
 			<div class="carousel-caption">
 			  <h3>Potentiometer</h3>
 			</div>
 		  </div>
-	
+
 		<a class="left carousel-control" href="#logoCarousel" data-slide="prev">
 		  <span class="glyphicon glyphicon-chevron-left"></span>
 		</a>
@@ -146,7 +147,7 @@ function closeNav() {
 	  </div>
 	</div>
 	</div>
-     
+
     	<div class="container">
 	  <div id="logoCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators black">
@@ -154,21 +155,21 @@ function closeNav() {
 		  <li data-target="#logoCarousel" data-slide-to="1"></li>
 		</ol>
 		<div class="carousel-inner">
-			
+
 		  <div class="item active">
-			<img src="./pages/pictures/DocFile (2) - Copy.jpg" style="width:100%">
+			<img src="./images/stem2.jpg" style="width:100%">
 			<div class="carousel-caption">
 			  <h3>Servo Motor</h3>
 			</div>
 		  </div>
-	
+
 		  <div class="item">
-			<img src="page 1 (2).jpg" style="width:100%">
+			<img src="stem4.jpg" style="width:100%">
 			<div class="carousel-caption">
 			  <h3>Circuit Diagram</h3>
 			</div>
 		  </div>
-	
+
 		<a class="left carousel-control" href="#logoCarousel" data-slide="prev">
 		  <span class="glyphicon glyphicon-chevron-left"></span>
 		</a>
@@ -190,9 +191,9 @@ function closeNav() {
    </div>
 
    <br/>
-    
+
   <div class="jumbotron">
-   <p><i class="fa fa-copyright"></i> TheEnderStuff 2018 | <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Kerr,Aiden &amp; Ethan.</p> 
+   <p><i class="fa fa-copyright"></i> TheEnderStuff 2018 | <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Kerr,Aiden &amp; Ethan.</p>
    <p align="center"><a class="btn btn-outline-primary btn-large btn-block" href="#" role="button">Back To Top</a></p>
   </div>
 
